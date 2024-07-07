@@ -1,0 +1,55 @@
+body {
+    font-family: 'Arial', sans-serif;
+    background: linear-gradient(to right, #ffecd2 0%, #1dc3d5 100%);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+}
+
+.container {
+    text-align: center;
+    background: #ffffff;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+}
+
+h1 {
+    color: #ff7e5f;
+    margin-bottom: 20px;
+}
+
+.pet-container {
+    margin-bottom: 20px;
+}
+
+.pet-container img {
+    width: 200px;
+    height: 200px;
+}
+
+.controls button {
+    background: #ff7e5f;
+    color: #fff;
+    border: none;
+    padding: 10px 20px;
+    margin: 5px;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background 0.3s;
+}
+
+.controls button:hover {
+    background: #ff5733;
+}
+
+.status {
+    margin-top: 20px;
+}
+
+.status p {
+    font-size: 18px;
+    color: #333;
+}
